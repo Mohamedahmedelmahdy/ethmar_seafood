@@ -345,6 +345,7 @@ header * {
   height: 200px;
   border-radius: 15px;
   opacity: 0.8;
+  background-color: #ffff;
 }
 
 #gallery .img-gallery img:hover {
@@ -491,17 +492,28 @@ form button {
     #navbar {
       flex-direction: column;
     }
+    
+    
 
     #navbar img {
       margin-bottom: 20px;
     }
 
     header .content h1 {
-      font-size: 18px;
-    }
+      font-size: 19px;
+      margin-top: 22px;
+        }
+    
+    header .content a{
+      margin-bottom: 110px;
+      padding: 7px;
+        }
+    
 
     header .content p {
-      font-size: 14px;
+      font-size: 17px;
+            margin-top: 39px;
+            margin-bottom: 30px;
     }
 
     #about .about-content {
@@ -509,11 +521,22 @@ form button {
     }
 
     #about .about-content a {
-      margin: 2rem 0;
+      display: table;
+      margin: 2rem auto ;
+      align-items: center;
+      
+    }
+    #about .about-content p{
+      text-align: justify;
+      margin-left: 25px;
+
     }
 
     #about img {
-      display: none;
+      display: block;
+    width: 400px;
+    justify-content: space-between;
+    margin: auto;
     }
 
     #offers {
@@ -543,5 +566,23 @@ form button {
     form {
       width: 80%;
     }
+  }
+}
+@media (max-width: 400px) {
+  header .content h1 {
+    font-size: 17px;
+    margin-top: 22px;
+      }
+  
+  header .content a{
+    margin-bottom: 110px;
+    padding: 7px;
+      }
+  
+
+  header .content p {
+    font-size: 14px;
+          margin-top: 39px;
+          margin-bottom: 30px;
   }
 }
