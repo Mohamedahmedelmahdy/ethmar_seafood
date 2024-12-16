@@ -29,6 +29,11 @@ header::before {
 #navbar {
     background-color: #FCC823;
 }
+.container{
+    max-width: 1100px;
+    margin: auto;
+    
+}
 #resipes{
     margin-top: 7rem;
 
@@ -72,6 +77,47 @@ p{
   padding: 0 20px;
   font-weight: 600;
   margin-bottom: 15px;
+}
+/* Responsiveness */
+/* Medium Screen + Tablet */
+@media (max-width: 600px) { 
+    nav ul { 
+        margin: -20px 5px 10px 5px;
+        color: rgb(5, 54, 250);
+  }
+  #resipes  {
+    margin-top:8rem
+  }
+  #resipes .res-list{
+    align-items: center;
+  } 
+  #resipes .res-list div{
+    align-items: center;
+    text-align:center;
+    margin: auto;
+    display: block;
+  }
+}
+/* Responsiveness */
+/* small mobail */
+@media (max-width: 400px) {
+    nav ul { 
+        font-size: 14px;
+        margin: -20px 5px 10px 5px;
+        color: rgb(5, 54, 250);
+}
+#resipes  {
+    margin-top:8rem
+  }
+  #resipes .res-list{
+    align-items: center;
+  } 
+  #resipes .res-list div{
+    align-items: center;
+    text-align:center;
+    margin: auto;
+    display: block;
+  }
 }
 
 </style>

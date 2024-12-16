@@ -568,6 +568,8 @@ form button {
     }
   }
 }
+
+
 @media (max-width: 400px) {
   header .content h1 {
     font-size: 17px;
@@ -585,4 +587,9 @@ form button {
           margin-top: 39px;
           margin-bottom: 30px;
   }
+
+  #resipes .res-list h2 {
+    margin-right: 25px;
+
+}
 }
